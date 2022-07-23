@@ -4,6 +4,10 @@ body {
   font-size: 120%;
 }
 
+main a {
+  color: #851944;
+}
+
 main h1 {
   font-size: 60px;
   background-color: rgb(23, 62, 101);
@@ -21,4 +25,30 @@ h1, h2 {
 
 p {
   text-align: justify;
+}
+
+blockquote {
+ background-color: #D9E5E3;
+}
+
+aside {
+  background-color: #3C1D3D;
+}
+
+aside a {
+  color: inherit;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+footer {
+  background-color: #000;
+  color: #F2FFFC;
+}
+
+nav a {
+  color: #F2FFFC;
+}
+
+ul {
+  color: pink;
 }
