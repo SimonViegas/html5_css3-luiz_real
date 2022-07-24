@@ -13,7 +13,7 @@ main h1 {
   background-color: rgb(23, 62, 101);
   color: rgb(250, 255, 255);
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   margin: 0px;
 }
 
@@ -37,6 +37,10 @@ blockquote {
  box-sizing: border-box;
 }
 
+blockquote, aside, footer {
+  padding: 20px;
+}
+
 aside {
   background-color: #3C1D3D;
   padding: 16px
@@ -45,6 +49,11 @@ aside {
 aside a {
   color: inherit;
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside {
+  text-align: center;
+  list-style-type:none;
 }
 
 footer {
@@ -59,4 +68,9 @@ nav a {
 
 ul {
   color: pink;
+}
+
+main div {
+  width: 720px;
+  margin: auto;
 }
