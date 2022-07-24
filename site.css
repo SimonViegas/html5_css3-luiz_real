@@ -2,6 +2,7 @@ body {
   background-color: #F2FFFC;
   font-family: "Crimson Text", serif;
   font-size: 120%;
+  line-height: 1.5;
 }
 
 main a {
@@ -15,6 +16,12 @@ main h1 {
   text-align: center;
   padding: 25px;
   margin: 0px;
+  border-bottom: 10px black solid;
+}
+
+main div {
+  width: 720px;
+  margin: auto;
 }
 
 h2 {
@@ -68,9 +75,4 @@ nav a {
 
 ul {
   color: pink;
-}
-
-main div {
-  width: 720px;
-  margin: auto;
 }
