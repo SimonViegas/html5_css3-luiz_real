@@ -1,86 +1,98 @@
 body {
-	background-color: #F2FFFC;
-	font-family: "Crimson Text", "Times New Roman", serif;
-	font-size: 120%;
-	line-height: 1.5;
-}
-
-h1, h2 {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
-
-main h1 {
-	background-color: rgb(23, 62, 101);
-	border-bottom: 10px solid black;
-	color: #FFF;
-	font-size: 60px;
-	padding: 25px;
-	text-align: center;
-}
-
-p {
-	margin: 20px 0;
-	text-align: justify;
-}
-
-blockquote {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	box-sizing: border-box;
-	margin: 20px 40px;
-	width: 250px;
-}
-
-aside {
-	background-color: #3C1D3D;
-	color: #F2FFFC;
-}
-
-footer {
-	background-color: #000;
-	color: #F2FFFC;
-}
-
-nav a {
-	color: #F2FFFC;
-}
-
-main a {
-	color: #851944;
-}
-
-aside a {
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-}
-
-blockquote, aside, footer {
-    padding: 20px;
-}
-
-main div {
-	margin: auto;
-	padding: 30px 0;
-	width: 720px;
-}
-
-aside {
-	text-align: center;
-}
-
-aside h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-strong {
-	font-weight: bold;
+  background-color: #F2FFFC;
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-size: 120%;
+  line-height: 1.5;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
-h2 {
-	font-size: 30px;
+h1, h2 {
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main a {
+  color: #851944;
+}
+
+p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.article {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.bio-quote {
+  background-color: #D9E5E3;
+  border: 10px solid #C2CCCA;
+  box-sizing: border-box;
+  margin: 20px 40px;
+  width: 250px;
+}
+
+.bio-quote, .site-navigator, .footer-page {
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  padding: 30px 0;
+  width: 720px;
+}
+
+.footer-page{
+  background-color: #000;
+  color: #F2FFFC;
+}
+
+.text-subtitle {
+  font-size: 30px;
+}
+
+.main-title {
+  background-color: #851944;
+  border-bottom: 10px solid black;
+  color: #FFF;
+  font-size: 60px;
+  padding: 25px;
+  text-align: center;
+}
+
+.read-more {
+  background-color: #E6E7E8;
+  display: block;
+  font-size: 24px;
+  margin: 16px;
+  padding: 8px;
+  text-align: center;
+}
+
+.site-navigator a {
+  color: inherit;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.site-navigator {
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  text-align: center;
+}
+
+.site-navigator h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.social-network-icons li {
+  display: inline-block;
 }
