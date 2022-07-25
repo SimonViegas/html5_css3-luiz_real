@@ -15,8 +15,16 @@ h1, h2 {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 main a {
   color: #851944;
+}
+
+nav a {
+  text-transform: lowercase;
 }
 
 p {
@@ -52,13 +60,9 @@ strong {
   width: 720px;
 }
 
-.footer-page{
+.footer-page {
   background-color: #000;
   color: #F2FFFC;
-}
-
-.text-subtitle {
-  font-size: 30px;
 }
 
 .main-title {
@@ -95,6 +99,29 @@ strong {
   margin-bottom: 25px;
 }
 
-.social-network-icons li {
+.social-network-icons a {
+	display: block;
+	height: 40px;
+	text-indent: -99999px;
+	width: 40px;
+}
+
+.social-network-icons li{
   display: inline-block;
+}
+
+.text-subtitle {
+  font-size: 30px;
+}
+
+.github {
+  background-image: url(github.png);
+}
+
+.twitter {
+  background-image: url(twitter.png);
+}
+
+.linkedin {
+  background-image: url(linkedin.png);
 }
